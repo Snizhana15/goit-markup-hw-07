@@ -1,0 +1,27 @@
+.features {
+    display: flex;
+    }    
+.features__item:not(:last-child) {
+    margin-right: 30px;
+    }
+.features__icon-wrap {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    }
+    .features__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color:var(--main-color);
+    margin-bottom: 10px;
+    }
+    .features__text {
+    line-height: 1.71;
+    }
