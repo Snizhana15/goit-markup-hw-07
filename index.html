@@ -19,9 +19,9 @@
     <header class="header">
         <div class="header__container container">
         <nav class="header__navigation"> 
-            <a class="header__logo logo" href="" lang="en">Web<span class="header__logo--black">Studio</span> </a>
+            <a class="header__logo logo" href="" lang="en">Web<span class="logo__black">Studio</span> </a>
             <ul class="navigation">
-                <li class="navigation__item"><a class="navigation__link current" href="./index.html">Студия</a></li>
+                <li class="navigation__item"><a class="navigation__link navigation__link--current" href="./index.html">Студия</a></li>
                 <li class="navigation__item"><a class="navigation__link" href="./portfolio.html">Портфолио</a></li>
                 <li class="navigation__item"><a class="navigation__link" href="">Контакты</a></li>
             </ul>
@@ -94,9 +94,9 @@
             </ul>
         </div>
         </section>
-        <section class="section works-section"> 
+        <section class="section section--no-padding-top"> 
             <div class="container">
-            <h2 class="title-section">Чем мы занимаемся</h2>
+            <h2 class="section__title">Чем мы занимаемся</h2>
             <ul class="works">
                 <li class="works__item"> 
                     <img src="./images/gallery-1.jpg" alt="Компьютер" width="370" height="294">
@@ -112,14 +112,14 @@
             </ul>
         </div>
         </section>
-        <section class="section team-section">
+        <section class="section section--other-background">
             <div class="container">
-        <h2 class="title-section">Наша команда</h2>
+        <h2 class="section__title">Наша команда</h2>
         <ul class="team">
             <li class="team__item">
                 <img src="./images/employee-1.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                <div class="team__description"><h3 class="team__name">Игорь Демьяненко</h3>
-                <p class="team__position" lang="en">Product Designer</p>
+                <div class="team__description"><h3 class="team__title">Игорь Демьяненко</h3>
+                <p class="team__text" lang="en">Product Designer</p>
                 <ul class="social-list">
                     <li class="social-list__item">
                         <a href="" class="social-list__link">
@@ -154,8 +154,8 @@
             </li>
             <li class="team__item">
                 <img src="./images/employee-2.jpg" alt="Ольга Репина" width="270" height="260">
-                <div class="team__description"><h3 class="team__name">Ольга Репина</h3>
-                <p class="team__position" lang="en">Frontend Developer</p>
+                <div class="team__description"><h3 class="team__title">Ольга Репина</h3>
+                <p class="team__text" lang="en">Frontend Developer</p>
                 <ul class="social-list">
                     <li class="social-list__item">
                         <a href="" class="social-list__link">
@@ -190,8 +190,8 @@
             </li>
             <li class="team__item">
                 <img src="./images/employee-3.jpg" alt="Николай Тарасов" width="270" height="260">
-                <div class="team__description"><h3 class="team__name">Николай Тарасов</h3>
-                <p class="team__position" lang="en">Marketing</p> 
+                <div class="team__description"><h3 class="team__title">Николай Тарасов</h3>
+                <p class="team__text" lang="en">Marketing</p> 
                 <ul class="social-list">
                     <li class="social-list__item">
                         <a href="" class="social-list__link">
@@ -226,8 +226,8 @@
             </li>
             <li class="team__item">
                 <img src="./images/employee-4.jpg" alt="Михаил Ермаков" width="270" height="260">
-               <div class="team__description"><h3 class="team__name">Михаил Ермаков</h3>
-                <p class="team__position" lang="en">UI Designer</p> 
+               <div class="team__description"><h3 class="team__title">Михаил Ермаков</h3>
+                <p class="team__text" lang="en">UI Designer</p> 
                 <ul class="social-list">
                     <li class="social-list__item">
                         <a href="" class="social-list__link">
@@ -265,7 +265,7 @@
         </section>
         <section class="section">
             <div class="container">
-                <h2 class="title-section">Постоянные клиенты</h2>
+                <h2 class="section__title">Постоянные клиенты</h2>
                     <ul class="clients">
                         <li class="clients__item">
                             <a href="" class="clients__link">
@@ -317,7 +317,7 @@
     <footer class="footer">
         <div class="container footer__container">
             <div class="footer__text">
-        <a class="logo footer__logo" href="" lang="en">Web<span class="footer__logo--white">Studio</span></a>
+        <a class="logo footer__logo" href="" lang="en">Web<span class="logo--white">Studio</span></a>
         <address class="address">
             <ul class="address__list">
                 <li class="address__item"><a class="address__text" href="https://goo.gl/maps/agc73cYuMZpdd5328" 
@@ -382,7 +382,7 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal__btn" data-modal-close>
-                <svg width="18px" height="18px" class="modal-close-icon">
+                <svg width="18px" height="18px" class="modal__icon">
                     <use href="./images/symbol-defs.svg#icon-close-modal"></use>
                 </svg>
             </button>
